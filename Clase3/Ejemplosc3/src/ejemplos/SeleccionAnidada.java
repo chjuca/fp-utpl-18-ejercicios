@@ -26,7 +26,7 @@ public class SeleccionAnidada {
         if (calificacion >= 90) {
             System.out.printf("ESTUDIANTE: %s\n\tAprobado (excelente)\nCon calificación \n\t%d\n",nombre.toUpperCase(),calificacion);
         } else {
-            if (calificacion < 90 && calificacion >= 80) {
+            if (calificacion < 90 && calificacion >= 100) {
                 System.out.printf("ESTUDIANTE:%s\n\tAprobado (muy buena)\nCon calificación \n\t%d\n",nombre.toUpperCase(),calificacion);
             } else {
                 if (calificacion < 80 && calificacion >= 50) {
